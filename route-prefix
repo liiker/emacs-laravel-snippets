@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: r:prefix
+# key: r:prefix
+# --
+
+Route::prefix('${1:yourPrefix}')->group(function () {
+    $2
+});

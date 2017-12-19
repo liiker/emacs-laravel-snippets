@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r:midd
+# key: r:midd
+# --
+Route::middleware(['${1:yourMiddleware}'])->group(function () {
+    $2
+});

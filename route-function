@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r:fun 
+# key: r:fun
+# --
+Route::${1:$$(yas-choose-value '("get" "post" "any" "put" "delete" "patch"))}('${2:url}', function ($3) {
+    ${5:return view('${4:your.view}')};
+});

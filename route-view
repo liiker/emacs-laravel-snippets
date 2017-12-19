@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: r:view 
+# key: r:view
+# --
+Route::view('${1:url}', '${2:yourView}'${4:, [${3: 'key' => 'value'}]})${6:->name('${5:routeName}')};

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r:ns
+# key: r:ns
+# --
+Route::namespace('${1:yourNamespace}')->group(function () {
+    $2
+});

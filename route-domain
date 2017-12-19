@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: r:domain
+# key: r:domain
+# --
+Route::domain('${1:sub.domain.com}')->group(function () {
+    $2
+});

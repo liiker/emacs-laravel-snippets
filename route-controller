@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: r:ctrl 
+# key: r:ctrl
+# --
+Route::${1:$$(yas-choose-value '("get" "post" "any" "put" "delete" "patch"))}('${2:url}', '${3:Your Controller}')${5:->name('${4:display_name}')};

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: r:res
+# key: r:res
+# --
+
+Route::resource('${1:uri}', '${2:YourController}')${4:->name('${3:routeName}')};
